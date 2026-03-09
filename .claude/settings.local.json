@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install -r requirements.txt)",
+      "Bash(git init)",
+      "Bash(git branch -m main)",
+      "Bash(gh repo create linkedin-automation --public --source=. --push)",
+      "Bash(git add . && git commit -m \"$\\(cat <<'EOF'\nInitial commit: LinkedIn message automation\n\n- Python script for automated LinkedIn messaging\n- CSV-based contact tracking\n- Selenium-based browser automation\n- Configurable message template\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
